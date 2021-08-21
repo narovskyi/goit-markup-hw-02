@@ -10,6 +10,18 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-part {
+  color: var(--accent-color);
+}
+
 .list {
   list-style: none;
 }
@@ -18,20 +30,23 @@ body {
   text-decoration: none;
 }
 
+.btn {
+  cursor: pointer;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+}
+
 /* ----------HEADER---------- */
 
 .header-logo {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
   color: #000000;
-}
-
-.header-logo-item {
-  color: var(--accent-color);
 }
 
 .header-list-link {
@@ -91,4 +106,78 @@ body {
 .hero-button:hover,
 .hero-button:focus {
   background-color: #188ce8;
+}
+
+/* ----------ABOUT-US---------- */
+
+.about-us-slogans-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-title-color);
+}
+
+.about-us-slogans-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+/* ----------OUR-TEAM---------- */
+
+.our-team {
+  background-color: #f5f4fa;
+}
+
+.our-team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+}
+
+.our-team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+/* ----------FOOTER---------- */
+
+.footer {
+  background-color: var(--main-background-color);
+}
+
+.footer-logo {
+  color: #ffffff;
+}
+
+.footer-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-contacts-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+  color: var(--accent-color);
 }
